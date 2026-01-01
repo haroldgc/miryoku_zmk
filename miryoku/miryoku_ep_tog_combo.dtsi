@@ -8,7 +8,7 @@
         compatible = "zmk,combos";
         combo_ep_tog {
             timeout-ms = <50>;
-            key-positions = <32 20>;
+            key-positions = <20 32>;
             bindings = <&ext_power EP_TOG>;
         };
     };
