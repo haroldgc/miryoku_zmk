@@ -9,7 +9,7 @@
         combo_ep_tog {
             timeout-ms = <50>;
             key-positions = <20 32>;
-            bindings = <&ext_power EP_TOG>;
+            bindings = <&ext_power EP_ON>;
         };
     };
 };
