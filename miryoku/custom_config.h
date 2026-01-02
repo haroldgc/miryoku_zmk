@@ -6,9 +6,9 @@
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 
 #define MIRYOKU_LAYER_EXTRA \
-&ext_power EP_ON,          &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&ext_power EP_OFF,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-&ext_power EP_TOG,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+&ext_power EP_ON,          &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &ext_power EP_ON,          \
+&ext_power EP_OFF,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &ext_power EP_OFF,         \
+&ext_power EP_TOG,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &ext_power EP_TOG,         \
 U_NP,                      U_NP,              &mo U_MEDIA,       &mo U_NAV,         &mo U_MOUSE,       &mo U_SYM,         &mo U_NUM,         &mo U_FUN,         U_NP,              U_NP
 
 #if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
